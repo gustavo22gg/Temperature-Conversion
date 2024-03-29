@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(58, 41, 41, 0.628);
+    padding: 200px;
+    
+  
+}
+
+h1{
+    color: black;
+    font-size: 1.9em;
+
+}
+
+form{
+    background-color: white;
+    text-align: center;
+    width: 350px;
+    margin: auto;
+    padding: 20px;  /* from the border content*/
+    border-radius: 10;
+    box-shadow: 5px 5px 10px; /* top bottom shadow blu*/
+
+}
+
+#textbox{
+    text-align: center;
+    font-size: 1;
+    border: 2px solid rgba(0, 0, 0, 0.68);
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px;
+    margin-bottom: 15px;
+
+}
+
+label{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+button{
+    
+    margin-top: 10px;
+    background-color: rgba(58, 41, 41, 0.189);
+    border: None;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+   
+}
+
+button:hover{
+    background-color:  rgba(58, 41, 41, 0.628);
+
+}
+
+#result{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#mysubmit{
+    font-size: 1em;
+}
